@@ -42,7 +42,7 @@ function Home() {
     const [isOpen, setIsOpen] = useState(false)
     const { t } = useTranslation()
     return (
-        <div className='container sm:mx-0 bg-slate-50 dark:bg-slate-600 dark:text-white lg:mx-[20.8rem] h-[80%] w-[60%]'>
+        <div className='container sm:mx-0 bg-slate-200 dark:bg-slate-600 dark:text-white lg:mx-[20.8rem] h-[500%] w-[60%]'>
             <div className='relative flex flex-col float-right w-[340px] h-[340px] rounded-lg justify-end'>
                 <button onClick={() => setIsOpen((prev) => !prev)} className='absolute bg-blue-400 dark:bg-slate-500 top-0 p-1 mx-[26.5rem] w-[70px] flex items-center font-bold text-lg rounded-lg tracking-wider border-4 border-transparent active-white duration-300 active:text-white'><GlobeIcon />
                     {!isOpen ? (
